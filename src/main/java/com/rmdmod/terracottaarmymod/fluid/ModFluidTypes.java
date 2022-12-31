@@ -1,6 +1,6 @@
 package com.rmdmod.terracottaarmymod.fluid;
 
-import com.willnate.diversitymod.DiversityMod;
+import com.rmdmod.terracottaarmymod.TerracottaArmyMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraftforge.common.SoundAction;
@@ -14,10 +14,10 @@ import org.joml.Vector3f;
 public class ModFluidTypes {
     public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
     public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
-    public static final ResourceLocation MERCURY_OVERLAY_RL = new ResourceLocation(DiversityMod.MOD_ID, "misc/in_mercury");
+    public static final ResourceLocation MERCURY_OVERLAY_RL = new ResourceLocation(TerracottaArmyMod.MOD_ID, "misc/in_mercury");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
-            DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, DiversityMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, TerracottaArmyMod.MOD_ID);
 
     public static final RegistryObject<FluidType> MERCURY_FLUID_TYPE = register("mercury_fluid",
             FluidType.Properties.create().density(25).viscosity(5).supportsBoating(true).sound(SoundAction.get("drink"),

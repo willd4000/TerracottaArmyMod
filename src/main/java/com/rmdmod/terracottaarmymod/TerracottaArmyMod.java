@@ -55,10 +55,9 @@ public class TerracottaArmyMod
                 // Set name of tab to display
                 builder.title(Component.translatable("Diversity Mod Items"))
                         // Set icon of creative tab
-                        .icon(() -> new ItemStack(ModItems.RUBY.get()))
+                        .icon(() -> new ItemStack(ModItems.BOWL_OF_STEAMED_RICE.get()))
                         // Add default items to tab
                         .displayItems((enabledFlags, populator, hasPermissions) -> {
-                            populator.accept(ModItems.AMBER_SHARD.get());
                             populator.accept(ModItems.JADE_SHARD.get());
                             populator.accept(ModItems.MERCURY_BUCKET.get());
                             populator.accept(ModItems.BOWL_OF_WINE.get());

@@ -1,6 +1,6 @@
 package com.rmdmod.terracottaarmymod.block.custom;
 
-import com.willnate.diversitymod.block.ModBlocks;
+import com.rmdmod.terracottaarmymod.block.ModBlocks;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
@@ -16,7 +16,7 @@ public class RiceCropBlock extends CropBlock {
     }
     @Override
     public ItemLike getBaseSeedId(){
-        return ModBlocks.SLIMEY_BERRY.get();
+        return ModBlocks.RICE.get();
     }
     public IntegerProperty getAgeProperty(){
         return AGE;
