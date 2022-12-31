@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "diversitymod:item/mercury_bucket"
+    "layer0": "terracottaarmymod:item/mercury_bucket"
   }
 }

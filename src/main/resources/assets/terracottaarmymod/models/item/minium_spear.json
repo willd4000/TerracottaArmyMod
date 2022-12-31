@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "diversitymod:item/pole_texture",
-		"1": "diversitymod:item/tip_texture1",
-		"2": "diversitymod:item/tip_texture2",
-		"3": "diversitymod:item/tip_texture3",
-		"4": "diversitymod:item/tip_texture4",
-		"5": "diversitymod:item/tip_texture5",
-		"particle": "diversitymod:item/pole_texture"
+		"0": "terracottaarmymod:item/pole_texture",
+		"1": "terracottaarmymod:item/tip_texture1",
+		"2": "terracottaarmymod:item/tip_texture2",
+		"3": "terracottaarmymod:item/tip_texture3",
+		"4": "terracottaarmymod:item/tip_texture4",
+		"5": "terracottaarmymod:item/tip_texture5",
+		"particle": "terracottaarmymod:item/pole_texture"
 	},
 	"elements": [
 		{
