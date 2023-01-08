@@ -53,7 +53,7 @@ public class TerracottaArmyMod
     public void buildContents(CreativeModeTabEvent.Register event) {
         event.registerCreativeModeTab(new ResourceLocation(MOD_ID, "example"), builder ->
                 // Set name of tab to display
-                builder.title(Component.translatable("Diversity Mod Items"))
+                builder.title(Component.translatable("Terracotta Army Mod Items"))
                         // Set icon of creative tab
                         .icon(() -> new ItemStack(ModItems.BOWL_OF_STEAMED_RICE.get()))
                         // Add default items to tab
@@ -63,7 +63,7 @@ public class TerracottaArmyMod
                             populator.accept(ModItems.BOWL_OF_WINE.get());
                             populator.accept(ModBlocks.RICE.get());
                             populator.accept(ModItems.BOWL_OF_STEAMED_RICE.get());
-                            populator.accept(ModItems.MINITE_SPEAR.get());
+                            populator.accept(ModItems.SPEAR.get());
 
 
                         })

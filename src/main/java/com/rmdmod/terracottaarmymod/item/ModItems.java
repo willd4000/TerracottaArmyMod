@@ -2,7 +2,7 @@ package com.rmdmod.terracottaarmymod.item;
 
 import com.rmdmod.terracottaarmymod.TerracottaArmyMod;
 import com.rmdmod.terracottaarmymod.fluid.ModFluids;
-import com.rmdmod.terracottaarmymod.item.custom.MiniumSpear;
+import com.rmdmod.terracottaarmymod.item.custom.Spear;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -23,8 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<ArmorItem> CROWN = ITEMS.register("crown",
             () -> new ArmorItem(ModArmorMaterials.CROWN, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<MiniumSpear> MINITE_SPEAR = ITEMS.register("minium_spear",
-            () -> new MiniumSpear(new Item.Properties().durability(1000)));
+    public static final RegistryObject<Spear> SPEAR = ITEMS.register("spear",
+            () -> new Spear(new Item.Properties().durability(1000)));
     public static final RegistryObject<Item> MERCURY_BUCKET = ITEMS.register("mercury_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MERCURY,
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
